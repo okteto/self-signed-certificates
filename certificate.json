@@ -1,0 +1,19 @@
+{
+    "CN": "*.ramiro.dev.okteto.net",
+    "key": {
+      "algo": "rsa",
+      "size": 2048
+    },
+    "names": [
+        {
+          "C": "US",
+          "L": "San Francisco",
+          "O": "Okteto",
+          "OU": "Okteto Enterprise",
+          "ST": "California"
+        }
+    ],
+    "hosts": [
+      "*.ramiro.dev.okteto.net"
+    ]
+}

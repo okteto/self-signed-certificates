@@ -1,0 +1,16 @@
+{
+    "CN": "Self Signed Root CA",
+    "key": {
+      "algo": "rsa",
+      "size": 2048
+    },
+    "names": [
+    {
+      "C": "US",
+      "L": "San Francisco",
+      "O": "Okteto",
+      "OU": "Self Signed Root CA",
+      "ST": "California"
+    }
+   ]
+  }

@@ -1,0 +1,19 @@
+{
+    "CN": "Self Signed Intermediate Root CA",
+    "key": {
+      "algo": "rsa",
+      "size": 2048
+    },
+    "names": [
+    {
+      "C": "US",
+      "L": "San Francisco",
+      "O": "Okteto",
+      "OU": "Self Signed Intermediate Root CA",
+      "ST": "California"
+    }
+   ], 
+   "ca": {
+    "expiry": "42720h"
+    }
+}
