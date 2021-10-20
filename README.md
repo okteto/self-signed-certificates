@@ -79,10 +79,10 @@ Once the install/upgrade command finishes, your Okteto Enterprise instance will 
 
 ## Install the self-signed CA
 
-We recommend that you install the self-signed CA we created on all the devices that you'll be using to access your Okteto Enterprise instance, to avoid having any SSL trust issues. 
+We recommend that you install the self-signed intermediate CA we created on all the devices that you'll be using to access your Okteto Enterprise instance, to avoid having any SSL trust issues. 
 
 For MacOS:
 
 1. Open the KeyChain Access
-1. Import `ca.pem` to the `Login` keychain.
 1. Import `ca-intermediate.pem` to the `Login` keychain.
+1. Double click on the newly added certificate in your KeyChain,  and set the trust policy to 'Always'
